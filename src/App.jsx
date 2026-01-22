@@ -1,7 +1,7 @@
 import { useState } from "react";
 import InvoiceForm from "./components/InvoiceForm";
 import InvoicePreview from "./components/InvoicePreview";
-import InvoiceActions from "./Components/InvoiceActions";
+import InvoiceActions from "./components/InvoiceActions";
 
 export default function App() {
   const [invoice, setInvoice] = useState({
